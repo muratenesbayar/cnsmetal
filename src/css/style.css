@@ -1,14 +1,13 @@
 body {
-	background-color: gray;
+	background-color: black;
 	margin: 0px;
 	padding: 0px;
 }
 .top-header {
-	height: 30px;
-	background-color: white;
+	background-color: black;
 }
 .header {
-	background-color: #4c9391 ;
+	background-color: black ;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	position: sticky;
 	display: block;
@@ -17,21 +16,21 @@ body {
 	padding: 0px;
 	margin: 0px;
 }
-
-.header-left {
-	height: 100px;
-}
-
 .top-header ul > li > a{
 	text-decoration: none;
-	color: black;
-}
-
-.top-header ul > li > a:hover{
 	color: white;
 }
 
-.swiper {
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	display: block;
+.top-header ul > li > a:hover{
+	color: #4c9391;
+}
+
+.footer {
+	height: 100%;
+}
+.cns-hd--color {
+	color: #009b8f;
+}
+.map {
+	max-width:100%;
 }
